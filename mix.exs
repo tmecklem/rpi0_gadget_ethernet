@@ -34,7 +34,7 @@ defmodule NervesSystemRpi0.Mixfile do
 
   defp package do
     [maintainers: ["Timothy Mecklem"],
-    files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs-additions", "fwup.conf", "cmdline.txt", "linux-4.4.defconfig", "config.txt", "post-createfs.sh"],
+    files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs-additions", "fwup.conf", "cmdline.txt", "linux-4.9.defconfig", "config.txt", "post-createfs.sh"],
      licenses: ["Apache 2.0"],
      links: %{"Github" => "https://github.com/tmecklem/rpi0_gadget_ethernet"}]
   end
